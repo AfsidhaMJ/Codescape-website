@@ -1,43 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="src/css/style.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Codescape Blog – Insights on scalable web development, engineering best practices, and digital innovation." />
   <title>Blog | CODESCAPE</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
 
 <header class="site-header">
-  <div class="logo-container">
-    <img src="src/images/logo-icon.png" alt="CODESCAPE Icon" class="logo-icon">
-    <img src="src/images/logo-full.png" alt="CODESCAPE Logo" class="logo-full">
+  <div class="container header-content">
+    <div class="logo-container">
+      <img src="src/images/logo-icon.png" alt="CODESCAPE Icon" class="logo-icon">
+      <img src="src/images/logo-full.png" alt="CODESCAPE Logo" class="logo-full">
+    </div>
+
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
 </header>
 
+<main class="blog-page">
 
-<main>
-  <section>
-    <h2>Insights & Articles</h2>
-
-    <article>
-      <h3>Building Scalable Web Applications</h3>
-      <p>Best practices for performance-driven systems.</p>
-    </article>
-
-    <article>
-      <h3>Why Engineering-First Matters</h3>
-      <p>How strong engineering improves long-term success.</p>
-    </article>
+  <!-- Page Intro -->
+  <section class="blog-hero">
+    <div class="container">
+      <h1>Codescape Blog</h1>
+      <p class="blog-description">
+        Designed to support long-term SEO growth and thought leadership.
+        Insights on scalable systems, engineering excellence, and digital innovation.
+      </p>
+    </div>
   </section>
+
+  <!-- Categories -->
+  <section class="blog-categories">
+    <div class="container">
+      <button class="category active">All</button>
+      <button class="category">Engineering</button>
+      <button class="category">Performance</button>
+      <button class="category">Architecture</button>
+      <button class="category">Product Strategy</button>
+    </div>
+  </section>
+
+  <!-- Article Preview Cards -->
+  <section class="blog-grid">
+    <div class="container grid">
+
+      <article class="blog-card">
+        <div class="card-content">
+          <span class="card-category">Engineering</span>
+          <h3>Building Scalable Web Applications</h3>
+          <p>
+            Best practices for designing performance-driven systems that
+            scale efficiently across modern infrastructure.
+          </p>
+          <a href="#" class="read-more">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="card-content">
+          <span class="card-category">Strategy</span>
+          <h3>Why Engineering-First Matters</h3>
+          <p>
+            How strong engineering culture creates sustainable long-term
+            product success and technical resilience.
+          </p>
+          <a href="#" class="read-more">Read Article →</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="card-content">
+          <span class="card-category">Performance</span>
+          <h3>Optimizing Frontend Performance</h3>
+          <p>
+            Practical methods to improve load speed, responsiveness,
+            and overall user experience.
+          </p>
+          <a href="#" class="read-more">Read Article →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
 </main>
 
-<footer>
-  <p>© 2026 CODESCAPE</p>
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 CODESCAPE. All rights reserved.</p>
+  </div>
 </footer>
 
 </body>
 </html>
-
-
-
