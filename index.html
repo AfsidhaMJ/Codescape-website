@@ -1,84 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | CODESCAPE</title>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="logo-container">
       <img src="logo-icon.png" alt="CODESCAPE Icon" class="logo-icon">
       <img src="logo-full.png" alt="CODESCAPE Logo" class="logo-full">
     </div>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- MAIN CONTENT -->
   <main>
-
-    <!-- HERO SECTION -->
-    <section>
+    <section class="hero">
       <h1>Where Creativity Meets Technology</h1>
-      <p>
-        CODESCAPE is an engineering-first technology partner delivering
-        scalable, reliable, and high-performance digital solutions.
-      </p>
+      <p>CODESCAPE is an engineering-first technology partner delivering scalable, reliable, and high-performance digital solutions.</p>
     </section>
 
-    <!-- VALUE PROPOSITION -->
-    <section>
-      <h2>Your Success Is Our Mission</h2>
-      <p>
-        We focus on innovation, technical excellence, and quality to build
-        digital products that create long-term impact.
-      </p>
-    </section>
-
-    <!-- SERVICES PREVIEW -->
-    <section>
+    <section class="services-preview">
       <h2>Our Services</h2>
-      <ul>
-        <li>
-          <a href="service-web.html">Web Application Development</a>
-        </li>
-        <li>
-          <a href="service-mobile.html">Mobile App Development</a>
-        </li>
-        <li>
-          <a href="service-cloud.html">Cloud & DevOps Solutions</a>
-        </li>
-        <li>
-          <a href="service-uiux.html">UI / UX Design</a>
-        </li>
-      </ul>
-
-      <p>
-        <a href="services.html">View all services →</a>
-      </p>
+      <div class="service-grid">
+        <a href="service-web.html">Web Development</a>
+        <a href="service-mobile.html">Mobile Apps</a>
+        <a href="service-cloud.html">Cloud & DevOps</a>
+        <a href="service-uiux.html">UI / UX Design</a>
+      </div>
+      <p><a href="services.html" class="cta-link">View all services →</a></p>
     </section>
 
-    <!-- TRUST SECTION -->
-    <section>
-      <h2>Trusted Engineering Partner</h2>
-      <p>
-        CODESCAPE works with startups and enterprises to deliver
-        secure, scalable, and future-ready technology solutions.
-      </p>
-    </section>
-
-    <!-- CALL TO ACTION -->
-    <section>
+    <section class="cta">
       <h2>Let’s Build Something Great</h2>
-      <p>
-        Partner with CODESCAPE to transform ideas into reliable,
-        high-quality digital products.
-      </p>
-      <p>
-        <a href="contact.html">Contact Us →</a>
-      </p>
+      <p>Partner with CODESCAPE to transform ideas into reliable, high-quality digital products.</p>
+      <a href="contact.html" class="btn">Contact Us</a>
     </section>
-
   </main>
 
-  <!-- FOOTER -->
   <footer>
     <p>© 2026 CODESCAPE. All rights reserved.</p>
   </footer>
 
 </body>
-
+</html>
