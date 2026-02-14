@@ -6,16 +6,43 @@ body {
   line-height: 1.6;
 }
 
-header, footer {
-  padding: 16px;
+/* Header */
+.site-header {
+  padding: 15px 30px;
   background-color: #0f172a;
   color: #ffffff;
+  border-bottom: 1px solid #1e293b;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.site-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* Main content */
 main {
   padding: 24px;
 }
 
 h1, h2, h3 {
   margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+  padding: 16px;
+  background-color: #0f172a;
+  color: #ffffff;
+  text-align: center;
 }
